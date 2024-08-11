@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Youtube chennel",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javascript",
@@ -12,5 +13,8 @@
     "silence"
   ],
   "author": "Pramod-ece",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.4"
+  }
 }
